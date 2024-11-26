@@ -45,7 +45,6 @@
         margin: 0;
 
         li a {
-            // text-decoration: none;
             color: $color-black;
             font-size: $font-size-p1;
             line-height: 140%;
@@ -139,7 +138,7 @@
                 box-sizing: border-box;
                 top: 0;
                 right: 0;
- 
+
                 background: $color-background-lime;
                 transform-origin: 100% 0%;
                 transform: translateX(100%);
@@ -175,7 +174,7 @@
         margin: 0;
         padding: 0;
 
-        @include respond-to("desktop-large") { 
+        @include respond-to("desktop-large") {
             gap: clamp(1rem, -2.6923rem + 5.7692vw, 2.5rem);
         }
     }

@@ -113,7 +113,7 @@ footer {
                 align-items: flex-end;
             }
 
-            @include respond-to("tablet-large") {  
+            @include respond-to("tablet-large") {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -158,7 +158,7 @@ footer {
                     &:nth-child(1) {
                         background-color: $color-background-lime;
                         border-radius: 7px;
-                        line-height: 1.4; 
+                        line-height: 1.4;
 
                         p {
                             color: $color-black;
